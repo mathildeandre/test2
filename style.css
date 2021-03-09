@@ -7,14 +7,15 @@ body{
 	font-family: raleway, sans-serif;
 	width: 100%;
 	margin: auto;
+	padding-left: 50px;
 }
 
 h1{
-	font-size: 22px;
+	font-size: 1.2em;
 }
 
 h2{
-	font-size: 22px;
+	font-size: 1em;
 }
 
 header{
@@ -135,9 +136,7 @@ button{
 
 #hebergements{
 	flex-direction: column;
-	width: 50%;
-
-
+	width: 65%;
 }
 
 
@@ -173,10 +172,12 @@ aside{
 	background-color: #F2F2F2;
 	border-radius: 2%;
 	margin-left: 20px;
+	width: 30%;
 }
 
 aside a{
 	text-decoration: none;
+	display: flex;
 }
 
 aside img{
@@ -192,8 +193,7 @@ aside div{
 	background-color: white;
 	padding: 10px 10px 10px 10px;
 	border-radius: 10%;
-	display: flex;
-	width: 300px;
+	
 }
 
 
