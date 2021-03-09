@@ -128,41 +128,31 @@ button{
 }
 
 #section2{
-	display: flex;
-	flex-direction: row;
+	display: flex;	
 	justify-content: space-between;
 	width: 100%;
+}
+
+#hebergements{
+	flex-direction: column;
+	width: 50%;
+
+
 }
 
 
 #hebergements1 {
 	display: flex;
-	flex-direction: row;
 	justify-content: space-between;
-	background-color: #F2F2F2;
 	border-radius: 2%;	
-	padding: 10px 0px 0px 10px;
-	min-width: 100px;
-	height: 50%;
+	
 }
 
 #hebergements2{
 	display: flex;
-	flex-direction: row;
 	justify-content: space-between;
-	background-color: #F2F2F2;
 	border-radius: 2%;	
-	padding: 10px 0px 0px 10px;
-	min-width: 100px;
-	height: 50%;
-}
-
-
-#hebergements1 div{
-	background-color: white;
-	border-radius: 10%;
-	padding: 10px 10px 10px 10px;
-	width: 190px;	
+	
 }
 
 #hebergements1 img{
@@ -170,13 +160,6 @@ button{
 	height: 100px;
 	border-radius: 10%;
 	object-fit: cover;	
-}
-
-#hebergements2 div{
-	background-color: white;
-	border-radius: 10%;
-	padding: 10px 10px 10px 10px;
-	width: 190px;	
 }
 
 #hebergements2 img{
@@ -190,7 +173,6 @@ aside{
 	background-color: #F2F2F2;
 	border-radius: 2%;
 	margin-left: 20px;
-	width: 30%;
 }
 
 aside a{
@@ -214,10 +196,10 @@ aside div{
 	width: 300px;
 }
 
+
 aside h1{
 	padding-left: 35px;
 }
-
 
 
 
