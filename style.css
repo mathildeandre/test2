@@ -161,23 +161,26 @@ button{
 #hebergements1 div{
 	background-color: white;
 	border-radius: 10%;
+	box-shadow: 2px 5px 5px grey;
 }
 
 #hebergements2{
 	display: flex;
 	justify-content: space-between;
-
 }
 
 #hebergements2 div{
 	background-color: white;
 	border-radius: 10%;
+	box-shadow: 2px 5px 5px grey;
+	padding: -10px;
 }
 
 #hebergements1 img{
 	width: 190px;
 	height: 100px;
 	border-radius: 10%;
+	margin: 5px 5px 5px 5px;
 	object-fit: cover;	
 }
 
@@ -185,6 +188,7 @@ button{
 	width: 190px;
 	height: 100px;
 	border-radius: 10%;
+	margin: 5px 5px 5px 5px;
 	object-fit: cover;
 }
 
@@ -199,22 +203,20 @@ aside a{
 	text-decoration: none;
 	display: flex;
 	color: black;
+	box-shadow: 2px 5px 5px grey;
+	border-radius: 10%;
+	background-color: white;
+	margin: 20px 20px 20px 20px;
 }
 
 aside img{
 	width: 130px;
 	height: 130px;
 	border-radius: 10%;
-	padding-right: 10px;
-	padding-top: 7px;
+	padding: 10px 10px 10px 10px;
 	object-fit: cover;
 }
 
-aside div{
-	background-color: white;
-	margin: 20px 20px 20px 20px;
-	border-radius: 10%;
-}
 
 aside h1{
 	padding-left: 35px;
