@@ -143,31 +143,35 @@ button{
 	flex-direction: column;
 	width: 65%;
 	background-color: #F2F2F2;
-	padding-bottom: 10px;
+	padding: 20px 20px 20px 20px;
 }
 
 #hebergements a{
 	text-decoration: none;
+	color: black;
 }
+
 
 #hebergements1 {
 	display: flex;
-	justify-content: space-between;
-	border-radius: 2%;		
+	justify-content: space-between;	
+	padding-bottom: 20px;	
 }
 
 #hebergements1 div{
 	background-color: white;
+	border-radius: 10%;
 }
 
 #hebergements2{
 	display: flex;
 	justify-content: space-between;
-	border-radius: 2%;		
+
 }
 
 #hebergements2 div{
 	background-color: white;
+	border-radius: 10%;
 }
 
 #hebergements1 img{
@@ -194,6 +198,7 @@ aside{
 aside a{
 	text-decoration: none;
 	display: flex;
+	color: black;
 }
 
 aside img{
@@ -207,7 +212,7 @@ aside img{
 
 aside div{
 	background-color: white;
-	padding: 10px 10px 10px 10px;
+	margin: 20px 20px 20px 20px;
 	border-radius: 10%;
 }
 
@@ -224,34 +229,47 @@ aside h1{
 }
 
 #section3{
-	padding: 15px 15px 15px 15px;
+	padding: 20px 20px 20px 20px;
 }
 
 #activites figure img{
 	width: 190px;
-	height: 100px;
+	height: 140px;	
+	object-fit: cover;	
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+#activites figure{
+	box-shadow: 2px 5px 5px grey;
 	border-radius: 10%;
 	padding-top: 7px;
-	object-fit: cover;
-	box-shadow: 2px 5px 5px grey;
 }
 
 #vieuxport img{
 	width: 250px;
-	height:300px;
-	border-radius: 10%;
-	padding-right: 10px;
-	padding-top: 7px;
+	height:350px;
 	object-fit: cover;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
 } 
+
+#vieuxport{
+	box-shadow: 2px 5px 5px grey;
+	border-radius: 10%;
+}
 
 #parc img{
 	width: 250px;
-	height: 300px;
-	border-radius: 10%;
-	padding-right: 10px;
-	padding-top: 7px;
+	height: 350px;
 	object-fit: cover;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+}
+
+#parc{
+	border-radius: 10%;
+	box-shadow: 2px 5px 5px grey;
 }
 
 #activites{
