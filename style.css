@@ -23,7 +23,7 @@ h2{
 }
 
 header{
-	margin: 0 20px;
+	margin: 0 20px; 
 	display: flex;
 	flex-wrap: wrap;
 	align-items: center;
@@ -139,6 +139,10 @@ button{
 	padding: 15px 15px 15px 15px;
 }
 
+#section1{
+	padding: 15px 60px 15px 10px;
+}
+
 #hebergements{
 	flex-direction: column;
 	width: 65%;
@@ -162,6 +166,7 @@ button{
 	background-color: white;
 	border-radius: 10%;
 	box-shadow: 2px 5px 5px grey;
+	flex: 1;
 }
 
 #hebergements2{
@@ -173,21 +178,23 @@ button{
 	background-color: white;
 	border-radius: 10%;
 	box-shadow: 2px 5px 5px grey;
-	padding: -10px;
+	flex: 1;
 }
 
 #hebergements1 img{
-	width: 190px;
-	height: 100px;
-	border-radius: 10%;
+	width: 260px;
+	height: 120px;
+	border-top-right-radius: 20px 20px;
+	border-top-left-radius: 20px 20px;
 	margin: 5px 5px 5px 5px;
 	object-fit: cover;	
 }
 
 #hebergements2 img{
-	width: 190px;
-	height: 100px;
-	border-radius: 10%;
+	width: 260px;
+	height: 120px;
+	border-top-right-radius: 20px 20px;
+	border-top-left-radius: 20px 20px;
 	margin: 5px 5px 5px 5px;
 	object-fit: cover;
 }
@@ -212,7 +219,8 @@ aside a{
 aside img{
 	width: 130px;
 	height: 130px;
-	border-radius: 10%;
+	border-top-left-radius: 20px 20px;
+	border-bottom-left-radius: 20px 20px;
 	padding: 10px 10px 10px 10px;
 	object-fit: cover;
 }
@@ -230,12 +238,17 @@ aside h1{
 	color: #F2F2F2;
 }
 
+
 #section3{
-	padding: 20px 20px 20px 20px;
+	padding: 20px 20px 50px 20px;
+}
+
+#section3 h2{
+	padding-left: 7px;
 }
 
 #activites figure img{
-	width: 190px;
+	width: 250px;
 	height: 140px;	
 	object-fit: cover;	
 	border-top-left-radius: 10px;
@@ -282,10 +295,6 @@ aside h1{
 
 }
 
-
-
-
-
 footer{
 	background-color: #F2F2F2;
 	display: flex;
@@ -298,4 +307,26 @@ footer{
 
 #assistance{
 	padding-right: 100px;
+}
+
+@media all and (min-width: 1024px) and (max-width: 1280px){
+	header{
+		flex-direction: column;
+		width: auto;
+	}
+
+	section{
+		flex-direction: column;
+		width: auto;
+	}
+
+	aside{
+		flex-direction: column;
+		width: auto;
+	}
+
+	footer{
+		display: flex;
+		width: auto;
+	}
 }
