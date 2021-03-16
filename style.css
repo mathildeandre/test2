@@ -36,6 +36,10 @@ header{
 	padding-top: 20px;
 }
 
+nav{
+	display: flex;
+}
+
 nav ul{
 	list-style-type: none;
 	display: flex;	
@@ -53,6 +57,7 @@ nav a{
 	display: flex;
 	align-items: center;
 	font-weight: bold;
+	flex-wrap: wrap;
 }
 
 .fa-map-marker-alt{
@@ -139,6 +144,7 @@ button{
 
 #section1{
 	padding: 15px 60px 15px 10px;
+	width: 100%;
 }
 
 #hebergements{
@@ -178,7 +184,7 @@ button{
 }
 
 #hebergements1 img{
-	width: 260px;
+	width: 100%;
 	height: 120px;
 	border-top-right-radius: 20px 20px;
 	border-top-left-radius: 20px 20px;
@@ -187,7 +193,7 @@ button{
 }
 
 #hebergements2 img{
-	width: 260px;
+	width: 100%;
 	height: 120px;
 	border-top-right-radius: 20px 20px;
 	border-top-left-radius: 20px 20px;
@@ -213,7 +219,7 @@ aside a{
 }
 
 aside img{
-	width: 130px;
+	width: 100%;
 	height: 130px;
 	border-top-left-radius: 20px 20px;
 	border-bottom-left-radius: 20px 20px;
@@ -244,7 +250,7 @@ aside h1{
 }
 
 #activites figure img{
-	width: 250px;
+	width: 100%;
 	height: 140px;	
 	object-fit: cover;	
 	border-top-left-radius: 10px;
@@ -258,7 +264,7 @@ aside h1{
 }
 
 #vieuxport img{
-	width: 250px;
+	width: 100%;
 	height:350px;
 	object-fit: cover;
 	border-top-left-radius: 10px;
@@ -271,7 +277,7 @@ aside h1{
 }
 
 #parc img{
-	width: 250px;
+	width: 100%;
 	height: 350px;
 	object-fit: cover;
 	border-top-left-radius: 10px;
@@ -288,7 +294,10 @@ aside h1{
 	flex: 1;
 	display: flex;
 	justify-content: space-between;
+}
 
+#activites div{
+	width: 24%;
 }
 
 footer{
@@ -305,22 +314,37 @@ footer{
 	padding-right: 100px;
 }
 
-@media all and (max-width: 1280px){
+@media all and (max-width: 768px){
 	header{
 		flex-direction: column;
 		width: auto;
 	}
 
-	nav ul{
-		flex-direction: column;
+	nav {
+		order: 2;
+		width: 100%;
 	}
 
 	#filtres{
+		flex-wrap: wrap;
+	}
+
+	#section1 div{
+		flex-wrap: wrap;
+		flex-direction: column-reverse;
+	}
+
+	#hebergements1{
 		flex-direction: column;
 		width: auto;
 		}
 
-	section{
+	#hebergements2{
+		flex-direction: column;
+		width: auto;
+	}
+
+	#section3 div{
 		flex-direction: column;
 		width: auto;
 	}
@@ -331,7 +355,7 @@ footer{
 	}
 
 	footer{
-		display: flex;
+		flex-direction: column;
 		width: auto;
 	}
 }
