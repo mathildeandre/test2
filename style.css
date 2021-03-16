@@ -5,8 +5,6 @@
 
 body{
 	font-family: raleway, sans-serif;
-	width: 100%;
-	margin: auto;
 }
 
 h1{
@@ -165,8 +163,7 @@ button{
 #hebergements1 div{
 	background-color: white;
 	border-radius: 10%;
-	box-shadow: 2px 5px 5px grey;
-	flex: 1;
+	box-shadow: 2px 5px 5px grey;	
 }
 
 #hebergements2{
@@ -178,7 +175,6 @@ button{
 	background-color: white;
 	border-radius: 10%;
 	box-shadow: 2px 5px 5px grey;
-	flex: 1;
 }
 
 #hebergements1 img{
@@ -309,11 +305,20 @@ footer{
 	padding-right: 100px;
 }
 
-@media all and (min-width: 1024px) and (max-width: 1280px){
+@media all and (max-width: 1280px){
 	header{
 		flex-direction: column;
 		width: auto;
 	}
+
+	nav ul{
+		flex-direction: column;
+	}
+
+	#filtres{
+		flex-direction: column;
+		width: auto;
+		}
 
 	section{
 		flex-direction: column;
