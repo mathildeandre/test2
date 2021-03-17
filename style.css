@@ -53,6 +53,10 @@ nav a{
 	text-decoration: none;
 }
 
+.sinscrire{
+	padding-top: 15px;
+}
+
 #filtres{
 	display: flex;
 	align-items: center;
@@ -163,12 +167,14 @@ button{
 	width: 100%;	
 }
 
+
 #hebergements1 div{
 	background-color: white;
 	border-radius: 20px;
 	box-shadow: 2px 5px 5px grey;	
 	flex: 1;
 	padding: 5px 5px 0px 5px;
+	margin: 0px 5px 0px 5px;
 }
 
 #hebergements2{
@@ -182,6 +188,7 @@ button{
 	box-shadow: 2px 5px 5px grey;
 	flex: 1;
 	padding: 5px 5px 0px 5px;
+	margin: 0px 5px 0px 5px;
 }
 
 #hebergements1 img{
@@ -197,7 +204,6 @@ button{
 	height: 120px;
 	border-top-right-radius: 20px 20px;
 	border-top-left-radius: 20px 20px;
-	
 	object-fit: cover;
 }
 
@@ -250,7 +256,7 @@ aside h1{
 }
 
 #section3 h2{
-	padding-left: 7px;
+	padding-left: 10px;
 }
 
 #activites figure img{
@@ -336,11 +342,17 @@ footer{
 	#section1 div{
 		flex-wrap: wrap;
 		flex-direction: column-reverse;
-		width: 100%;
+		width: auto;
 	}
 
 	#hebergements{
 		background-color: white;
+	}
+
+	#hebergements img{
+		width: 100%;
+		height: 150px;
+		object-fit: cover;
 	}
 
 	#hebergements1{
@@ -350,18 +362,25 @@ footer{
 
 	#hebergements2{
 		flex-direction: column;
-		width: auto;
+		width: 100%;
 	}
 
 	#section3 div{
 		flex-direction: column;
-		width: auto;
+		width: 100%;
 	}
 
 	aside{
 		flex-direction: column;
-		width: auto;
+		width: 100%;
 	}
+
+	aside img{
+		width: 100%;
+		height: 150px;
+		object-fit: cover;
+	}
+
 
 	#section3 img{
 		width: 100%;
