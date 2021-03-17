@@ -71,7 +71,7 @@ nav a{
 
 input{
 	border: solid #F2F2F2 1px;
-	padding: 10px 10px 10px 10px;
+	padding: 11px 10px 10px 10px;
 }
 
 button{
@@ -89,7 +89,7 @@ button{
 .filtreelement{
 	margin-left: 40px;
 	border: solid #F2F2F2;
-	border-radius: 20px;
+	border-radius: 25px;
 }
 
 .nomfiltre{
@@ -101,35 +101,35 @@ button{
 }
 
 .fa-money-bill-wave{
-	border-radius: 50%;
+	border-radius: 50px;
 	background-color: #DEEBFF;
 	color: #0065FC;
 	padding: 12px 10px 12px 10px;
 }
 
 .fa-child{
-	border-radius: 50%;
+	border-radius: 50px;
 	background-color: #DEEBFF;
 	color: #0065FC;
 	padding: 12px 10px 12px 10px;
 }
 
 .fa-heart{
-	border-radius: 50%;
+	border-radius: 50px;
 	background-color: #DEEBFF;
 	color: #0065FC;
 	padding: 12px 10px 12px 10px;;
 }
 
 .fa-dog{
-	border-radius: 50%;
+	border-radius: 50px;
 	background-color: #DEEBFF;
 	color: #0065FC;
 	padding: 12px 10px 12px 10px;;
 }
 
 .fa-info{
-	border-radius: 50%;
+	border-radius: 50px;
 	color: #0065FC;
 	border: solid grey 1px;
 	padding: 2px 5px 2px 5px;
@@ -142,16 +142,12 @@ button{
 	padding: 15px 15px 15px 15px;
 }
 
-#section1{
-	padding: 15px 60px 15px 10px;
-	width: 100%;
-}
-
 #hebergements{
 	flex-direction: column;
 	width: 65%;
 	background-color: #F2F2F2;
 	padding: 20px 20px 20px 20px;
+	border-radius: 20px;
 }
 
 #hebergements a{
@@ -163,13 +159,16 @@ button{
 #hebergements1 {
 	display: flex;
 	justify-content: space-between;	
-	padding-bottom: 20px;	
+	padding-bottom: 20px;
+	width: 100%;	
 }
 
 #hebergements1 div{
 	background-color: white;
-	border-radius: 10%;
+	border-radius: 20px;
 	box-shadow: 2px 5px 5px grey;	
+	flex: 1;
+	padding: 5px 5px 0px 5px;
 }
 
 #hebergements2{
@@ -179,8 +178,10 @@ button{
 
 #hebergements2 div{
 	background-color: white;
-	border-radius: 10%;
+	border-radius: 20px;
 	box-shadow: 2px 5px 5px grey;
+	flex: 1;
+	padding: 5px 5px 0px 5px;
 }
 
 #hebergements1 img{
@@ -188,7 +189,6 @@ button{
 	height: 120px;
 	border-top-right-radius: 20px 20px;
 	border-top-left-radius: 20px 20px;
-	margin: 5px 5px 5px 5px;
 	object-fit: cover;	
 }
 
@@ -197,14 +197,13 @@ button{
 	height: 120px;
 	border-top-right-radius: 20px 20px;
 	border-top-left-radius: 20px 20px;
-	margin: 5px 5px 5px 5px;
+	
 	object-fit: cover;
 }
 
 aside{
 	background-color: #F2F2F2;
-	border-radius: 2%;
-	margin-left: 20px;
+	border-radius: 20px;
 	width: 30%;
 }
 
@@ -213,7 +212,7 @@ aside a{
 	display: flex;
 	color: black;
 	box-shadow: 2px 5px 5px grey;
-	border-radius: 10%;
+	border-radius: 20px;
 	background-color: white;
 	margin: 20px 20px 20px 20px;
 }
@@ -223,13 +222,18 @@ aside img{
 	height: 130px;
 	border-top-left-radius: 20px 20px;
 	border-bottom-left-radius: 20px 20px;
-	padding: 10px 10px 10px 10px;
+	padding: 5px 15px 5px 5px;
 	object-fit: cover;
 }
 
 
 aside h1{
 	padding-left: 35px;
+}
+
+.cards img{
+	width: 100%;
+	object-fit: cover;
 }
 
 .etoile-bleue{
@@ -259,8 +263,7 @@ aside h1{
 
 #activites figure{
 	box-shadow: 2px 5px 5px grey;
-	border-radius: 10%;
-	padding-top: 7px;
+	border-radius: 20px;
 }
 
 #vieuxport img{
@@ -273,7 +276,7 @@ aside h1{
 
 #vieuxport{
 	box-shadow: 2px 5px 5px grey;
-	border-radius: 10%;
+	border-radius: 20px;
 }
 
 #parc img{
@@ -285,7 +288,7 @@ aside h1{
 }
 
 #parc{
-	border-radius: 10%;
+	border-radius: 10px;
 	box-shadow: 2px 5px 5px grey;
 }
 
@@ -329,14 +332,20 @@ footer{
 		flex-wrap: wrap;
 	}
 
+
 	#section1 div{
 		flex-wrap: wrap;
 		flex-direction: column-reverse;
+		width: 100%;
+	}
+
+	#hebergements{
+		background-color: white;
 	}
 
 	#hebergements1{
 		flex-direction: column;
-		width: auto;
+		width: 100%;
 		}
 
 	#hebergements2{
@@ -354,8 +363,34 @@ footer{
 		width: auto;
 	}
 
+	#section3 img{
+		width: 100%;
+		height: 150px;
+		object-fit: cover;
+	}
+	
+	#activites div{
+		width: 100%;
+	}
+
+	figure{
+		width: 100%;
+		margin: 16px 40px 16px 0px;
+	}
+
+
 	footer{
 		flex-direction: column;
 		width: auto;
+		padding-left: 15px;
+	}
+
+
+	#apropos{
+		padding-left: 0px;
+	}
+
+	#assistance{
+		padding-right: 0px;
 	}
 }
